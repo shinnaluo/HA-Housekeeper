@@ -1,0 +1,882 @@
+{
+  "apAllow": {
+    "en": "Allow again",
+    "de": "Wieder zulassen"
+  },
+  "apAttempts": {
+    "en": "failed attempts",
+    "de": "Fehlversuche"
+  },
+  "apAttemptsHint": {
+    "en": "This many failed setup attempts start the pause.",
+    "de": "So viele gescheiterte Einrichtungsversuche lösen die Pause aus."
+  },
+  "apAttemptsTitle": {
+    "en": "Failed attempts before a pause",
+    "de": "Fehlversuche bis zur Pause"
+  },
+  "apConfirmText": {
+    "en": "{name} will be disabled and tried again at intervals, for up to {days} days.",
+    "de": "{name} wird deaktiviert und danach in Abständen wieder versucht, höchstens {days} Tage lang."
+  },
+  "apConfirmTitle": {
+    "en": "Pause {name}?",
+    "de": "{name} pausieren?"
+  },
+  "apConfirmYes": {
+    "en": "Pause",
+    "de": "Pausieren"
+  },
+  "apEnd": {
+    "en": "End pause",
+    "de": "Pause beenden"
+  },
+  "apExhausted": {
+    "en": "No more tries, please look",
+    "de": "Keine Versuche mehr, bitte prüfen"
+  },
+  "apFailures": {
+    "en": "{n} failed attempts",
+    "de": "{n} Fehlversuche"
+  },
+  "apHead": {
+    "en": "Pause constant failures automatically",
+    "de": "Dauerfehler automatisch pausieren"
+  },
+  "apHeadSub": {
+    "en": "Pauses data providers that keep failing to set up and tries them again later. A pause you start by hand does not need this switch.",
+    "de": "Pausiert Datenlieferanten, die dauernd an der Einrichtung scheitern, und versucht es später wieder. Eine Pause von Hand braucht diesen Schalter nicht."
+  },
+  "apHours": {
+    "en": "hours",
+    "de": "Stunden"
+  },
+  "apHoursHint": {
+    "en": "The failed attempts must fall within this time.",
+    "de": "Die Fehlversuche müssen in diesem Zeitraum liegen."
+  },
+  "apHoursTitle": {
+    "en": "Time window",
+    "de": "Zeitraum"
+  },
+  "apHouse": {
+    "en": "Also pause integrations that carry a house function",
+    "de": "Auch Integrationen pausieren, die eine Hausfunktion tragen"
+  },
+  "apHouseFn": {
+    "en": "carries a house function",
+    "de": "trägt eine Hausfunktion"
+  },
+  "apHouseHint": {
+    "en": "Off: an integration that a house function relies on is never paused by itself.",
+    "de": "Aus: Eine Integration, auf die sich eine Hausfunktion verlässt, wird nie von selbst pausiert."
+  },
+  "apLog": {
+    "en": "History",
+    "de": "Verlauf"
+  },
+  "apLogWhat": {
+    "en": "Event",
+    "de": "Ereignis"
+  },
+  "apLogWhen": {
+    "en": "When",
+    "de": "Zeitpunkt"
+  },
+  "apLogWho": {
+    "en": "Integration",
+    "de": "Integration"
+  },
+  "apLog_back": {
+    "en": "is back",
+    "de": "läuft wieder"
+  },
+  "apLog_ended": {
+    "en": "pause ended",
+    "de": "Pause beendet"
+  },
+  "apLog_exhausted": {
+    "en": "pause stays, please look",
+    "de": "Pause bleibt, bitte prüfen"
+  },
+  "apLog_paused": {
+    "en": "paused",
+    "de": "pausiert"
+  },
+  "apLog_tried": {
+    "en": "try without success",
+    "de": "Versuch ohne Erfolg"
+  },
+  "apManual": {
+    "en": "Pause an integration by hand",
+    "de": "Integration von Hand pausieren"
+  },
+  "apManualHint": {
+    "en": "When you already know there is a problem right now.",
+    "de": "Wenn du schon weißt, dass es gerade ein Problem gibt."
+  },
+  "apMore": {
+    "en": "Services",
+    "de": "Dienste"
+  },
+  "apNever": {
+    "en": "Never pause",
+    "de": "Nie pausieren"
+  },
+  "apNeverPill": {
+    "en": "never paused",
+    "de": "nie pausiert"
+  },
+  "apNext": {
+    "en": "next try in {span}",
+    "de": "nächster Versuch in {span}"
+  },
+  "apNoWatched": {
+    "en": "No integration meets the rule: cloud polling and data entities only.",
+    "de": "Keine Integration erfüllt die Regel: Cloud-Abruf und nur Daten-Entitäten."
+  },
+  "apPause": {
+    "en": "Pause",
+    "de": "Pausieren"
+  },
+  "apPaused": {
+    "en": "Paused",
+    "de": "Pausiert"
+  },
+  "apPausedNow": {
+    "en": "Paused for {span}",
+    "de": "Pausiert seit {span}"
+  },
+  "apPick": {
+    "en": "Search an integration",
+    "de": "Integration suchen"
+  },
+  "apPlan": {
+    "en": "Retries: 3 × 1 h, 3 × 3 h, 12 × 6 h, then daily, for up to {days} days from the start of the pause. After that the pause stays and Housekeeper tells you.",
+    "de": "Wiederholungen: 3 × 1 Std., 3 × 3 Std., 12 × 6 Std., dann täglich, höchstens {days} Tage ab Beginn der Pause. Danach bleibt die Pause bestehen und Housekeeper meldet es."
+  },
+  "apReasonAuto": {
+    "en": "{n} failed attempts",
+    "de": "{n} Fehlversuche"
+  },
+  "apReasonManual": {
+    "en": "paused by you",
+    "de": "von dir pausiert"
+  },
+  "apReasonPaused": {
+    "en": "paused by auto-pause",
+    "de": "pausiert von Auto-Pause"
+  },
+  "apSend": {
+    "en": "Send to auto-pause",
+    "de": "In Auto-Pause schicken"
+  },
+  "apSendHint": {
+    "en": "A temporary fault? Auto-pause spares the source.",
+    "de": "Vorübergehende Störung? Auto-Pause entlastet die Quelle."
+  },
+  "apSettings": {
+    "en": "Settings",
+    "de": "Einstellungen"
+  },
+  "apSettingsSub": {
+    "en": "Pauses after {a} failed attempts within {h} h",
+    "de": "Pausiert nach {a} Fehlversuchen in {h} Std."
+  },
+  "apSince": {
+    "en": "For {span}",
+    "de": "Seit {span}"
+  },
+  "apStatusOff": {
+    "en": "Off · services that would be watched: {n}",
+    "de": "Aus · Dienste, die überwacht würden: {n}"
+  },
+  "apStatusOn": {
+    "en": "On · services watched: {n}",
+    "de": "Aktiv · Dienste im Blick: {n}"
+  },
+  "apSwitch": {
+    "en": "Pause automatically",
+    "de": "Automatisch pausieren"
+  },
+  "apTab": {
+    "en": "Auto-pause",
+    "de": "Auto-Pause"
+  },
+  "apTileHint": {
+    "en": "{n} candidates · pauses constant failures and tries again later",
+    "de": "{n} Kandidaten · pausiert Dauerfehler und versucht es später wieder"
+  },
+  "apTodoCheck": {
+    "en": "Please look",
+    "de": "Bitte prüfen"
+  },
+  "apTodoExhaustedHint": {
+    "en": "The pause stays · check the log, the update and the source",
+    "de": "Pause bleibt bestehen · Protokoll, Update und Quelle prüfen"
+  },
+  "apTodoExhaustedMany": {
+    "en": "{n} pauses without success, please look",
+    "de": "{n} Pausen ohne Erfolg, bitte prüfen"
+  },
+  "apTodoExhaustedOne": {
+    "en": "{name}: {days} days without success, please look",
+    "de": "{name}: {days} Tage ohne Erfolg, bitte prüfen"
+  },
+  "apTodoHint": {
+    "en": "Try {n} of {total}, next in {span} · for {since}",
+    "de": "Versuch {n} von {total}, nächster in {span} · seit {since}"
+  },
+  "apTodoMany": {
+    "en": "{n} integrations paused",
+    "de": "{n} Integrationen pausiert"
+  },
+  "apTodoOne": {
+    "en": "{name} is paused",
+    "de": "{name} ist pausiert"
+  },
+  "apTry": {
+    "en": "Try {n} of {total}",
+    "de": "Versuch {n} von {total}"
+  },
+  "apTryNow": {
+    "en": "Try now",
+    "de": "Jetzt versuchen"
+  },
+  "apWarnControl": {
+    "en": "The integration has entities that control or report something. They are gone from Home Assistant while it is paused.",
+    "de": "Die Integration hat Entitäten, die etwas steuern oder melden. Für die Dauer der Pause sind sie aus Home Assistant verschwunden."
+  },
+  "apWarnHouse": {
+    "en": "A house function relies on it.",
+    "de": "Eine Hausfunktion verlässt sich darauf."
+  },
+  "apWatched": {
+    "en": "Services watched",
+    "de": "Dienste im Blick"
+  },
+  "apWatchedHint": {
+    "en": "Data providers without a control function that auto-pause would pause",
+    "de": "Datenlieferanten ohne Steuerfunktion, die Auto-Pause pausieren würde"
+  },
+  "apWatching": {
+    "en": "Under observation",
+    "de": "Unter Beobachtung"
+  },
+  "apWatchingHint": {
+    "en": "Data providers that are collecting failed attempts right now",
+    "de": "Datenlieferanten, die gerade Fehlversuche sammeln"
+  },
+  "apWindow": {
+    "en": "{n} of {limit} failed attempts in {hours} h",
+    "de": "{n} von {limit} Fehlversuchen in {hours} Std."
+  },
+  "apWindowOff": {
+    "en": "would be paused at {limit}",
+    "de": "würde bei {limit} pausieren"
+  },
+  "apWouldPause": {
+    "en": "Auto-pause would pause this",
+    "de": "Auto-Pause würde das pausieren"
+  },
+  "cfColAction": {
+    "en": "Decision",
+    "de": "Entscheidung"
+  },
+  "cfKnown": {
+    "en": "Mark as known",
+    "de": "Als bekannt markieren"
+  },
+  "cfKnownNote": {
+    "en": "Marked as known: not counted in the rating.",
+    "de": "Als bekannt markiert: zählt nicht in der Bewertung."
+  },
+  "cfReport": {
+    "en": "Report again",
+    "de": "Wieder melden"
+  },
+  "err_auto_pause_busy": {
+    "en": "An attempt is running.",
+    "de": "Es läuft gerade ein Versuch."
+  },
+  "err_auto_pause_confirm_needed": {
+    "en": "The integration controls something or carries a house function: please confirm.",
+    "de": "Die Integration steuert etwas oder trägt eine Hausfunktion: bitte bestätigen."
+  },
+  "err_auto_pause_core": {
+    "en": "This integration is never paused.",
+    "de": "Diese Integration wird nie pausiert."
+  },
+  "err_auto_pause_disabled": {
+    "en": "The integration is already disabled.",
+    "de": "Die Integration ist schon deaktiviert."
+  },
+  "err_auto_pause_invalid": {
+    "en": "Value not allowed.",
+    "de": "Wert nicht zulässig."
+  },
+  "err_auto_pause_not_found": {
+    "en": "Integration not found.",
+    "de": "Integration nicht gefunden."
+  },
+  "err_auto_pause_not_paused": {
+    "en": "Not paused.",
+    "de": "Nicht pausiert."
+  },
+  "err_auto_pause_paused": {
+    "en": "Already paused.",
+    "de": "Bereits pausiert."
+  },
+  "err_auto_pause_reauth": {
+    "en": "The integration needs a new login; a pause does not help.",
+    "de": "Die Integration braucht eine neue Anmeldung; eine Pause hilft nicht."
+  },
+  "markAutoClear": {
+    "en": "Remove automatically once the object reports again",
+    "de": "Automatisch aufheben, sobald sich das Objekt wieder meldet"
+  },
+  "markAutoClearHint": {
+    "en": "The mark disappears by itself when the object reports again after an outage and stays fine for the whole wait. A mark set in advance on an object that works stays until its first outage.",
+    "de": "Der Vermerk verschwindet von selbst, wenn das Objekt nach einem Ausfall wieder meldet und die Wartezeit lang durchgehend in Ordnung bleibt. Ein Vermerk, der vorab bei einem laufenden Objekt gesetzt wird, bleibt bis zum ersten Ausfall."
+  },
+  "markAutoClearLine": {
+    "en": "ends when it reports again",
+    "de": "wird bei Rückmeldung aufgehoben"
+  },
+  "markGraceBack": {
+    "en": "Wait",
+    "de": "Wartezeit"
+  },
+  "polRowMenu": {
+    "en": "More actions",
+    "de": "Weitere Aktionen"
+  },
+  "relAttempts": {
+    "en": "About {n} setup retries, counted since {date}",
+    "de": "Etwa {n} Wiederholungen der Einrichtung, gezählt seit {date}"
+  },
+  "relHintCloud": {
+    "en": "{n} setup failures in {days} days with low availability. The integration fetches its data over the internet, so the service or website was probably unreachable or has changed. Look for the error in the log, check for an update of the integration and wait: Home Assistant retries by itself.",
+    "de": "{n} Setup-Fehler in {days} Tagen bei niedriger Verfügbarkeit. Die Integration holt ihre Daten aus dem Netz, vermutlich war der Dienst oder die Website nicht erreichbar oder hat sich geändert. Im Protokoll nach dem Fehler suchen, auf ein Update der Integration prüfen und abwarten: Home Assistant versucht es von selbst wieder."
+  },
+  "sim_area_set": {
+    "en": "{count} objects get an area",
+    "de": "{count} Objekte bekommen einen Bereich"
+  },
+  "sim_automations_deleted": {
+    "en": "{count} automations are deleted",
+    "de": "{count} Automationen werden gelöscht"
+  },
+  "sim_backups_deleted": {
+    "en": "{count} backups are deleted",
+    "de": "{count} Backups werden gelöscht"
+  },
+  "sim_enabled": {
+    "en": "{count} entities are enabled",
+    "de": "{count} Entitäten werden aktiviert"
+  },
+  "sim_hidden": {
+    "en": "{count} entities are hidden",
+    "de": "{count} Entitäten werden ausgeblendet"
+  },
+  "sim_labeled": {
+    "en": "{count} entities get a label",
+    "de": "{count} Entitäten bekommen ein Label"
+  },
+  "sim_refactored": {
+    "en": "{count} automations are rewritten",
+    "de": "{count} Automationen werden umgebaut"
+  },
+  "sim_reloaded": {
+    "en": "{count} integration(s) will be reloaded (unreachable for a few seconds, nothing is deleted)",
+    "de": "{count} Integration(en) werden neu geladen (einige Sekunden nicht erreichbar, nichts wird gelöscht)"
+  },
+  "sim_unhidden": {
+    "en": "{count} entities are shown again",
+    "de": "{count} Entitäten werden eingeblendet"
+  },
+  "spaceAgain": {
+    "en": "Measure space per entity",
+    "de": "Platz je Entität messen"
+  },
+  "spaceAlone": {
+    "en": "In {n} rows only this attribute changed.",
+    "de": "In {n} Zeilen hat sich nur dieses Attribut geändert."
+  },
+  "spaceAt": {
+    "en": "Measured {when} · took {took} s",
+    "de": "Gemessen {when} · dauerte {took} s"
+  },
+  "spaceAttrsFailed": {
+    "en": "Reading failed: {reason}",
+    "de": "Das Lesen ist fehlgeschlagen: {reason}"
+  },
+  "spaceAttrsHint": {
+    "en": "When an attribute changes, Home Assistant makes a new attribute row that holds all the other attributes again. Marked is what changes in at least half of the rows: it causes the new rows, even when it is small itself.",
+    "de": "Ändert sich ein Attribut, legt Home Assistant eine neue Attribut-Zeile an, mit allen anderen Attributen darin. Markiert ist, was sich in mindestens der Hälfte der Zeilen ändert: Das verursacht die neuen Zeilen, auch wenn es selbst klein ist."
+  },
+  "spaceAttrsLoading": {
+    "en": "Reading the attributes …",
+    "de": "Attribute werden gelesen …"
+  },
+  "spaceAttrsNewest": {
+    "en": "the newest {read} of {total} attribute rows",
+    "de": "die neuesten {read} von {total} Attribut-Zeilen"
+  },
+  "spaceAttrsNone": {
+    "en": "No attributes are stored for this entity.",
+    "de": "Für diese Entität sind keine Attribute gespeichert."
+  },
+  "spaceAttrsOpen": {
+    "en": "Break down by attributes",
+    "de": "Nach Attributen aufschlüsseln"
+  },
+  "spaceAttrsRead": {
+    "en": "{read} attribute rows read",
+    "de": "{read} Attribut-Zeilen gelesen"
+  },
+  "spaceAttrsRest": {
+    "en": "Plus {n} smaller attributes with {pct} % together.",
+    "de": "Dazu {n} kleinere Attribute mit zusammen {pct} %."
+  },
+  "spaceAttrsTitle": {
+    "en": "Attributes of {name}",
+    "de": "Attribute von {name}"
+  },
+  "spaceColChanges": {
+    "en": "Changes",
+    "de": "Ändert sich"
+  },
+  "spaceColKey": {
+    "en": "Attribute",
+    "de": "Attribut"
+  },
+  "spaceColRows": {
+    "en": "States",
+    "de": "Zustände"
+  },
+  "spaceColShare": {
+    "en": "Share",
+    "de": "Anteil"
+  },
+  "spaceColSize": {
+    "en": "Space",
+    "de": "Platz"
+  },
+  "spaceColVariants": {
+    "en": "Attribute rows",
+    "de": "Attribut-Zeilen"
+  },
+  "spaceConstant": {
+    "en": "constant",
+    "de": "gleichbleibend"
+  },
+  "spaceDriver": {
+    "en": "causes new rows",
+    "de": "verursacht neue Zeilen"
+  },
+  "spaceExAdd": {
+    "en": "Mark for exclusion",
+    "de": "Zum Ausschluss vormerken"
+  },
+  "spaceExOn": {
+    "en": "Marked for exclusion",
+    "de": "Zum Ausschluss vorgemerkt"
+  },
+  "spaceExWhere": {
+    "en": "YAML under Recorder → Load",
+    "de": "YAML unter Recorder → Last"
+  },
+  "spaceFact": {
+    "en": "Space taken",
+    "de": "Belegter Platz"
+  },
+  "spaceFactRunning": {
+    "en": "being measured ({pct} %)",
+    "de": "wird gemessen ({pct} %)"
+  },
+  "spaceFailed": {
+    "en": "Did not finish ({pct} % read). The list shows what was read until then.",
+    "de": "Nicht fertig geworden ({pct} % gelesen). Die Liste zeigt, was bis dahin gelesen war."
+  },
+  "spaceGoto": {
+    "en": "Measure under Recorder → Database",
+    "de": "Messen unter Recorder → Datenbank"
+  },
+  "spaceInterim": {
+    "en": "Interim, read so far",
+    "de": "Vorläufig, bisher gelesen"
+  },
+  "spaceIntro": {
+    "en": "Which entities take the space here and which attributes are behind it. Housekeeper reads the tables states and state_attributes in full for it. It runs in the background, can take a few minutes and only reads.",
+    "de": "Welche Entitäten hier den Platz belegen und welche Attribute dahinterstecken. Housekeeper liest dafür die Tabellen states und state_attributes ganz. Das läuft im Hintergrund, kann einige Minuten dauern und liest nur."
+  },
+  "spaceLeave": {
+    "en": "You can leave the page.",
+    "de": "Du kannst die Seite verlassen."
+  },
+  "spaceLeft": {
+    "en": "about {left} left",
+    "de": "noch etwa {left}"
+  },
+  "spaceLeftUnknown": {
+    "en": "estimating the time left",
+    "de": "Restzeit wird geschätzt"
+  },
+  "spaceLoading": {
+    "en": "Loading …",
+    "de": "Wird geladen …"
+  },
+  "spaceLook": {
+    "en": "Look at the space",
+    "de": "Platz ansehen"
+  },
+  "spaceLoose": {
+    "en": "Not assigned: {size} in {n} attribute rows no state uses any more. The recorder removes them at its next purge.",
+    "de": "Nicht zugeordnet: {size} in {n} Attribut-Zeilen, die kein Zustand mehr benutzt. Der Recorder räumt sie beim nächsten Aufräumen weg."
+  },
+  "spaceMore": {
+    "en": "Shown: the {shown} largest of {total} entities.",
+    "de": "Gezeigt: die {shown} größten von {total} Entitäten."
+  },
+  "spaceNotTop": {
+    "en": "not among the {n} largest",
+    "de": "nicht unter den {n} größten"
+  },
+  "spacePhaseAttrs": {
+    "en": "attributes",
+    "de": "Attribute"
+  },
+  "spacePhaseStates": {
+    "en": "states",
+    "de": "Zustände"
+  },
+  "spaceRunning": {
+    "en": "Measuring · {pct} %",
+    "de": "Wird gemessen · {pct} %"
+  },
+  "spaceScaled": {
+    "en": "Rows and lengths are counted, then spread over the size the database reports for both tables; the values are estimates. Identical attributes count once, shared ones in equal parts.",
+    "de": "Gezählt sind Zeilen und Längen. Verteilt auf die Größe, die die Datenbank für beide Tabellen meldet; die Werte sind Schätzungen. Gleiche Attribute zählen einmal, geteilte zu gleichen Teilen."
+  },
+  "spaceScaledEstimated": {
+    "en": "Rows and lengths are counted, then spread over the size MariaDB/MySQL estimates for both tables; the values are rough. Identical attributes count once, shared ones in equal parts.",
+    "de": "Gezählt sind Zeilen und Längen. Verteilt auf die Größe, die MariaDB/MySQL für beide Tabellen schätzt; die Werte sind daher grob. Gleiche Attribute zählen einmal, geteilte zu gleichen Teilen."
+  },
+  "spaceSeconds": {
+    "en": "{n} seconds",
+    "de": "{n} Sekunden"
+  },
+  "spaceSplit": {
+    "en": "states {states} · attributes {attrs}",
+    "de": "Zustände {states} · Attribute {attrs}"
+  },
+  "spaceStart": {
+    "en": "Measure",
+    "de": "Messen"
+  },
+  "spaceStop": {
+    "en": "Stop",
+    "de": "Abbrechen"
+  },
+  "spaceStopped": {
+    "en": "Stopped at {pct} %. The list shows what was read until then.",
+    "de": "Abgebrochen nach {pct} %. Die Liste zeigt, was bis dahin gelesen war."
+  },
+  "spaceStopping": {
+    "en": "Stopping · {pct} %",
+    "de": "Wird abgebrochen · {pct} %"
+  },
+  "spaceTrim": {
+    "en": "Trim history",
+    "de": "Verlauf kürzen"
+  },
+  "spaceUnscaled": {
+    "en": "The database reports no table sizes. The values are the measured lengths without indexes and overhead, so they are too small.",
+    "de": "Die Datenbank meldet keine Tabellengrößen. Die Werte sind die gemessenen Längen ohne Indizes und Verwaltung, also zu klein."
+  },
+  "startColAt": {
+    "en": "Start",
+    "de": "Start"
+  },
+  "startColLoaded": {
+    "en": "All loaded",
+    "de": "Alles geladen"
+  },
+  "startColShare": {
+    "en": "Compared",
+    "de": "Im Vergleich"
+  },
+  "startColSlowest": {
+    "en": "Slowest integration",
+    "de": "Langsamste Integration"
+  },
+  "startColTotal": {
+    "en": "Total",
+    "de": "Gesamt"
+  },
+  "startState_failed_unload": {
+    "en": "Error",
+    "de": "Fehler"
+  },
+  "startState_loaded": {
+    "en": "loaded",
+    "de": "geladen"
+  },
+  "startState_migration_error": {
+    "en": "Error",
+    "de": "Fehler"
+  },
+  "startState_not_loaded": {
+    "en": "not loaded",
+    "de": "nicht geladen"
+  },
+  "startState_setup_error": {
+    "en": "Error",
+    "de": "Fehler"
+  },
+  "startState_setup_in_progress": {
+    "en": "loading",
+    "de": "lädt"
+  },
+  "startState_setup_retry": {
+    "en": "Retrying",
+    "de": "Wiederholung"
+  },
+  "startsBuilding": {
+    "en": "The line appears with more starts.",
+    "de": "Der Verlauf entsteht mit weiteren Starts."
+  },
+  "startsClose": {
+    "en": "Hide the integrations of this start",
+    "de": "Integrationen dieses Starts verbergen"
+  },
+  "startsColInt": {
+    "en": "Integration",
+    "de": "Integration"
+  },
+  "startsColState": {
+    "en": "Status",
+    "de": "Status"
+  },
+  "startsColTime": {
+    "en": "Time",
+    "de": "Dauer"
+  },
+  "startsColVs": {
+    "en": "Comparison",
+    "de": "Vergleich"
+  },
+  "startsCrash": {
+    "en": "after crash",
+    "de": "nach Absturz"
+  },
+  "startsCrashHint": {
+    "en": "The start before never signed off: a crash, a power cut or a killed process.",
+    "de": "Der Start davor hat sich nie abgemeldet: Absturz, Stromausfall oder beendeter Prozess."
+  },
+  "startsDetailHead": {
+    "en": "Set-up per integration, slowest first",
+    "de": "Einrichtung je Integration, langsamste zuerst"
+  },
+  "startsDown": {
+    "en": "{x} down",
+    "de": "{x} aus"
+  },
+  "startsDownHint": {
+    "en": "How long Home Assistant was down before this start (from its last sign of life).",
+    "de": "So lange war Home Assistant vor diesem Start aus (vom letzten Lebenszeichen an)."
+  },
+  "startsEmpty": {
+    "en": "No start measured yet. The first one appears after Home Assistant has started the next time and the warm-up is over.",
+    "de": "Noch kein Start gemessen. Der erste erscheint, wenn Home Assistant das nächste Mal gestartet und die Anlaufphase vorbei ist."
+  },
+  "startsEntries": {
+    "en": "{n} entries",
+    "de": "{n} Einträge"
+  },
+  "startsFromHk": {
+    "en": "from Housekeeper",
+    "de": "ab Housekeeper"
+  },
+  "startsFromHkHint": {
+    "en": "The start of the process could not be read; the time counts from the set-up of Housekeeper and is therefore shorter than the whole start.",
+    "de": "Der Beginn des Prozesses ließ sich nicht lesen; die Zeit zählt ab dem Einrichten von Housekeeper und ist deshalb kürzer als der ganze Start."
+  },
+  "startsHaVersion": {
+    "en": "Home Assistant {v}",
+    "de": "Home Assistant {v}"
+  },
+  "startsLoadingHint": {
+    "en": "The set-up was not finished when this start was saved; the time is a minimum.",
+    "de": "Beim Speichern dieses Starts war die Einrichtung noch nicht fertig; die Zeit ist ein Mindestwert."
+  },
+  "startsMin": {
+    "en": "min",
+    "de": "Min."
+  },
+  "startsMore": {
+    "en": "{n} more under a second",
+    "de": "{n} weitere unter einer Sekunde"
+  },
+  "startsNoItems": {
+    "en": "There are no times per integration for this start.",
+    "de": "Für diesen Start liegen keine Zeiten je Integration vor."
+  },
+  "startsNote": {
+    "en": "The bar compares with the longest start in the table, and with the slowest integration of this start in the list. Home Assistant itself measures the time per integration, from the beginning to the end of its set-up. Integrations start at the same time, so the times do not add up to the length of the start. \"All loaded\" is the moment no integration was loading any more. A start is recorded when the warm-up is over.",
+    "de": "Der Balken vergleicht in der Tabelle mit dem längsten Start, in der Liste mit der langsamsten Integration dieses Starts. Die Zeit je Integration misst Home Assistant selbst, vom Beginn bis zum Ende ihrer Einrichtung. Integrationen starten gleichzeitig; die Zeiten ergeben deshalb nicht die Dauer des Starts. „Alles geladen“ ist der Moment, in dem keine Integration mehr geladen hat. Aufgenommen wird ein Start, wenn die Anlaufphase vorbei ist."
+  },
+  "startsOpen": {
+    "en": "Show the integrations of this start",
+    "de": "Integrationen dieses Starts zeigen"
+  },
+  "startsOpenObject": {
+    "en": "Opens the page of this integration",
+    "de": "Öffnet die Seite dieser Integration"
+  },
+  "startsOwn": {
+    "en": "custom",
+    "de": "eigene"
+  },
+  "startsOwnHint": {
+    "en": "A custom integration, not shipped with Home Assistant.",
+    "de": "Eigene Integration, nicht von Home Assistant mitgeliefert."
+  },
+  "startsTileCap": {
+    "en": "last {n} starts · average {avg}",
+    "de": "letzte {n} Starts · Schnitt {avg}"
+  },
+  "startsTileLoaded": {
+    "en": "everything loaded after {x}",
+    "de": "bis alles geladen {x}"
+  },
+  "startsTileNone": {
+    "en": "Measured at the next start.",
+    "de": "Wird beim nächsten Start gemessen."
+  },
+  "startsUnit_d": {
+    "en": "days",
+    "de": "Tage"
+  },
+  "startsUnit_h": {
+    "en": "h",
+    "de": "Std."
+  },
+  "startsUnit_m": {
+    "en": "min",
+    "de": "Min."
+  },
+  "startsUnit_s": {
+    "en": "s",
+    "de": "s"
+  },
+  "startsUpdate": {
+    "en": "after update",
+    "de": "nach Update"
+  },
+  "startsUpdateHint": {
+    "en": "The version of Home Assistant was a different one than at the start before.",
+    "de": "Die Version von Home Assistant war eine andere als beim Start davor."
+  },
+  "startsVsAvg": {
+    "en": "Average of the last {n} starts: {x}",
+    "de": "Schnitt der letzten {n} Starts: {x}"
+  },
+  "startsVsLess": {
+    "en": "{x} faster than usual",
+    "de": "{x} schneller als üblich"
+  },
+  "startsVsMore": {
+    "en": "{x} slower than usual",
+    "de": "{x} langsamer als üblich"
+  },
+  "startsVsNone": {
+    "en": "Too few earlier starts to compare with.",
+    "de": "Zu wenige frühere Starts zum Vergleichen."
+  },
+  "startsVsSame": {
+    "en": "as usual",
+    "de": "wie üblich"
+  },
+  "startsVsSlow": {
+    "en": "as usual, and slow",
+    "de": "wie üblich langsam"
+  },
+  "statClose": {
+    "en": "Hide details",
+    "de": "Details schließen"
+  },
+  "statFullId": {
+    "en": "Statistic ID",
+    "de": "Statistik-ID"
+  },
+  "statNoSuccessor": {
+    "en": "No similar active entity found.",
+    "de": "Keine ähnliche aktive Entität gefunden."
+  },
+  "statOpen": {
+    "en": "Show details",
+    "de": "Details zeigen"
+  },
+  "statRefs": {
+    "en": "Still named in",
+    "de": "Noch genannt in"
+  },
+  "statRefsNone": {
+    "en": "Nothing in the scan names this ID any more. Deleting it affects no automation, script or card the scan knows.",
+    "de": "Nichts im Scan nennt diese ID noch. Das Löschen betrifft keine Automation, kein Skript und keine Karte, die der Scan kennt."
+  },
+  "statRefsSome": {
+    "en": "The scan still finds this ID in {n} places. Check them before deleting.",
+    "de": "Der Scan findet diese ID noch an {n} Stellen. Vor dem Löschen dort prüfen."
+  },
+  "statSuccTitle": {
+    "en": "Possible successors",
+    "de": "Mögliche Nachfolger"
+  },
+  "storeText_starts": {
+    "en": "How long the last starts of Home Assistant took and the set-up time of each integration, kept as long as the history is.",
+    "de": "Dauer der letzten Starts von Home Assistant und die Einrichtungszeit je Integration, so lange wie der Verlauf aufbewahrt wird."
+  },
+  "store_starts": {
+    "en": "Start times",
+    "de": "Startzeiten"
+  },
+  "sysByStarts": {
+    "en": "Starts",
+    "de": "Starts"
+  },
+  "sysHeadStarts": {
+    "en": "Earlier starts",
+    "de": "Frühere Starts"
+  },
+  "sysPending": {
+    "en": "The sizes of the folders, apps and cards are being read for the first time and appear shortly. CPU, memory and disk are already current.",
+    "de": "Die Größen der Ordner, Apps und Karten werden gerade zum ersten Mal gelesen und erscheinen gleich. CPU, Arbeitsspeicher und Datenträger sind schon aktuell."
+  },
+  "sysTileStart": {
+    "en": "Last start",
+    "de": "Letzter Start"
+  },
+  "warmupDoneSlow": {
+    "en": "slowest integration: {name} ({s})",
+    "de": "langsamste Integration: {name} ({s})"
+  },
+  "warmupDoneTook": {
+    "en": "Start took {x}",
+    "de": "Start nach {x}"
+  },
+  "warmupEarly": {
+    "en": "The waiting time ends earlier as soon as nothing is loading any more.",
+    "de": "Die Wartezeit endet früher, sobald nichts mehr lädt."
+  },
+  "warmupFewer": {
+    "en": "fewer",
+    "de": "weniger"
+  },
+  "warmupSince": {
+    "en": "for {x}",
+    "de": "seit {x}"
+  }
+}
