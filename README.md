@@ -5,7 +5,7 @@
 <h1 align="center">HA Housekeeper</h1>
 
 <p align="center">
-  Maintenance and analysis for Home Assistant: inventory, diagnostics, and dependencies at a glance.
+  Housekeeping and cleanup for Home Assistant: find orphaned entities, devices and statistics, see their dependencies, and clean up with confirmation and undo.
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@ The goal is not aggressive automatic cleanup. Housekeeper helps you understand w
 
 > Housekeeper reads and analyzes first. It changes something only after you explicitly confirm a plan. Plans cover quarantine and removal, repairs, replacing references, renaming entities, assigning areas, deleting unused automations, trimming recorder history and other maintenance tasks. Depending on the action, Housekeeper requires a quarantine period, an additional confirmation and a successful backup. Reversible changes can be undone while their targets remain unchanged; irreversible recorder and backup deletions are clearly marked. Integrations and hubs are never modified, and Housekeeper changes only what a confirmed plan names.
 
-> **Beta of 2.0:** the pre-release [2.0.0-beta.1](https://github.com/bertel2020/HA-Housekeeper/releases/tag/v2.0.0-beta.1) is there to try: findings by topic with a page of its own, "Fix", a guided tour for cleaning up, the view "Simple" or "Full" and new names for the outcomes. In HACS (from Home Assistant 2026.11: Marketplace) it shows under "Redownload" with beta versions switched on. A normal update stays on 1.x.
+> **Beta of 2.0:** the pre-release [2.0.0-beta.4](https://github.com/bertel2020/HA-Housekeeper/releases/tag/v2.0.0-beta.4) is there to try: findings by topic with a page of its own, "Fix", a guided tour for cleaning up, the view "Simple" or "Full" and new names for the outcomes. In HACS (from Home Assistant 2026.11: Marketplace) it shows under "Redownload" with beta versions switched on. A normal update stays on 1.x.
 
 ## Screenshots
 
@@ -49,6 +49,10 @@ The goal is not aggressive automatic cleanup. Housekeeper helps you understand w
 | Automations | Reliability |
 | --- | --- |
 | ![Automations](screenshots/showcase-en/runs-desktop-light.png) | ![Reliability](screenshots/showcase-en/reliability-desktop-light.png) |
+
+| Recorder | Exposure |
+| --- | --- |
+| ![Recorder](screenshots/showcase-en/recorder-desktop-light.png) | ![Exposure](screenshots/showcase-en/exposure-desktop-light.png) |
 
 ## Why HA Housekeeper?
 

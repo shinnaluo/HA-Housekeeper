@@ -5,7 +5,7 @@
 <h1 align="center">HA Housekeeper</h1>
 
 <p align="center">
-  Wartung und Analyse für Home Assistant: Inventar, Diagnose und Abhängigkeiten auf einen Blick.
+  Housekeeping und Aufräumen für Home Assistant: verwaiste Entitäten, Geräte und Statistiken finden, Abhängigkeiten sehen und mit Bestätigung und Rückgängig aufräumen.
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@ Das Ziel ist keine aggressive automatische Bereinigung. Housekeeper hilft zunäc
 
 > Housekeeper liest und analysiert zunächst. Änderungen gibt es ausschließlich nach ausdrücklicher Bestätigung eines Plans. Pläne umfassen Quarantäne und Entfernen, Reparaturen, das Ersetzen von Verweisen, das Umbenennen von Entitäten, das Zuweisen von Bereichen, das Löschen ungenutzter Automationen, das Kürzen des Recorder-Verlaufs und weitere Wartungsaufgaben. Je nach Aktion verlangt Housekeeper eine Quarantänezeit, eine zusätzliche Bestätigung und ein erfolgreiches Backup. Umkehrbare Änderungen lassen sich zurücksetzen, solange ihre Ziele unverändert sind; endgültige Recorder- und Backup-Löschungen werden deutlich gekennzeichnet. Integrationen und Hubs werden nie verändert, und Housekeeper ändert nur, was ein bestätigter Plan nennt.
 
-> **Beta von 2.0:** Die Vorabversion [2.0.0-beta.1](https://github.com/bertel2020/HA-Housekeeper/releases/tag/v2.0.0-beta.1) ist zum Ausprobieren da: Befunde nach Themen mit einer eigenen Seite „Beheben“, ein geführter Rundgang beim Aufräumen, die Ansicht „Einfach“ oder „Vollständig“ und neue Namen für die Ausgänge. In HACS (ab Home Assistant 2026.11: Marketplace) erscheint sie unter „Neu herunterladen“ mit eingeschalteten Beta-Versionen. Ein normales Update bleibt auf 1.x.
+> **Beta von 2.0:** Die Vorabversion [2.0.0-beta.4](https://github.com/bertel2020/HA-Housekeeper/releases/tag/v2.0.0-beta.4) ist zum Ausprobieren da: Befunde nach Themen mit einer eigenen Seite „Beheben“, ein geführter Rundgang beim Aufräumen, die Ansicht „Einfach“ oder „Vollständig“ und neue Namen für die Ausgänge. In HACS (ab Home Assistant 2026.11: Marketplace) erscheint sie unter „Neu herunterladen“ mit eingeschalteten Beta-Versionen. Ein normales Update bleibt auf 1.x.
 
 ## Einblicke
 
@@ -49,6 +49,10 @@ Das Ziel ist keine aggressive automatische Bereinigung. Housekeeper hilft zunäc
 | Automationen | Zuverlässigkeit |
 | --- | --- |
 | ![Automationen](screenshots/showcase/runs-desktop-light.png) | ![Zuverlässigkeit](screenshots/showcase/reliability-desktop-light.png) |
+
+| Recorder | Freigaben |
+| --- | --- |
+| ![Recorder](screenshots/showcase/recorder-desktop-light.png) | ![Freigaben](screenshots/showcase/exposure-desktop-light.png) |
 
 
 ## Warum HA Housekeeper?
